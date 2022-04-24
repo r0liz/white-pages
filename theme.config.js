@@ -1,21 +1,18 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/r0liz/white-pages',
+  docsRepositoryBase: 'https://github.com/r0liz/white-pages/blob/master',
+  titleSuffix: ' Gain – 10X',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Gain</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        10X
       </span>
     </>
   ),
   head: (
     <>
-      <meta name="msapplication-TileColor" content="#ffffff" />
-      <meta name="theme-color" content="#ffffff" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta httpEquiv="Content-Language" content="en" />
+
       <meta name="description" content="Nextra: the Next.js site builder" />
       <meta name="og:description" content="Nextra: the Next.js site builder" />
       <meta name="twitter:card" content="summary_large_image" />
@@ -61,7 +58,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+//  footerEditLink: 'Edit this page on GitHub',
+  footerText: <>Gain10X {new Date().getFullYear()} © .</>,
   unstable_faviconGlyph: '👋',
 }
